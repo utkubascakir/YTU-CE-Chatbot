@@ -1,0 +1,164 @@
+[
+  {
+    "user_input": "GEÇİCİ MADDE 1 öğrenim süresi ne demek?",
+    "reference_contexts": [
+      "Üniversiteden çıkarılma cezası alması durumunda,\nÜniversite ile ilişiği kesilir.\n(2) Kendi isteği ile üniversiteden ayrılmak isteyen, çıkarılan veya mezun olanların Üniversitece tespit edilen ilişik kesme işlemlerini yapmaları\nzorunludur. İlişik kesme işlemlerini tamamlamayan öğrencilere diploma veya dosyalarında herhangi bir belge verilmez.\n \nALTINCI BÖLÜM\nÇeşitli ve Son Hükümler\n \nUygulama\nMADDE 37 –\n (1) Bu Yönetmelik, 2011 yılı ve öncesi birinci sınıf derslerine başlayan öğrencilerin 6111 sayılı Kanunun getirdiği değişiklikler\ndışında kalan kazanılmış hakları ve öğretim bütünlüğü göz önünde tutularak, tüm öğrencilere uygulanır.\nÖğrenim süresi\nGEÇİCİ MADDE 1 –\n \n(Değişik:RG-8/1/2019-30649)\n(3)\n(1) 2547 sayılı Yükseköğretim Kanununun geçici 67 nci maddesinin yürürlüğe girdiği tarihte kayıtlı olan öğrenciler bakımından, azami öğrenim\nsürelerinin hesaplanmasında 2014-2015 eğitim-öğretim yılı güz yarıyılı esas alınır.\nYürürlük\nMADDE 38 –"
+    ],
+    "reference": "2547 sayılı Yükseköğretim Kanununun geçici 67 nci maddesinin yürürlüğe girdiği tarihte kayıtlı olan öğrenciler bakımından, azami öğrenim sürelerinin hesaplanmasında 2014-2015 eğitim-öğretim yılı güz yarıyılı esas alınır.",
+    "persona_name": "Burak Çelik, University Applicant",
+    "query_style": "POOR_GRAMMAR",
+    "query_length": "SHORT",
+    "synthesizer_name": "single_hop_specific_query_synthesizer"
+  },
+  {
+    "user_input": "Üniversitede Yan Dal programı tam olarak nedir ve bu programı bitirince diploma mı alınıyor yoksa sadece bir başarı belgesi mi veriliyor?",
+    "reference_contexts": [
+      "Katkı Payı \nMADDE 20- (1) Anadal eğitimi devam eden öğrencilerden Çift Anadal öğretimi için program süresi \niçinde katkı payı alınmaz.  \n(2) Anadal programından mezun olan ancak çift anadal öğrenimine devam eden öğrencilerden \n2547 sayılı Kanunun 46. maddesinin (ç) fıkrası hükmü uyarınca, 9.ve 10. yarıyıllar için katkı payı \nalınmaz. Bu öğrenciler 11. yarıyıldan itibaren katkı payı öder.  \n \nDÖRDÜNCÜ BÖLÜM \nYAN DAL  \n \nYan Dal Programının Açılması \nMADDE 21 - (1) Yan Dal programı, Üniversitemizde bir lisans programına kayıtlı öğrencinin \nÜniversite içinde başka bir lisans programında belirli bir alana yönelik sınırlı sayıda dersi \ntamamlamak suretiyle, diploma yerine geçmeyen eğitim aldıkları alanda sadece başarı belgesi (Yan \nDal Sertifikası) alabilmesini sağlayan programdır. \n(2) Bölümler disiplinlerarası Yan Dal programı açabilir. \n(3) Yan Dal dersleri, öğrencinin kendi anadal programı dışında belirli bir alana yönelik bilgi ve"
+    ],
+    "reference": "Yan Dal programı, üniversitede bir lisans programına kayıtlı bir öğrencinin, üniversite içinde başka bir lisans programında belirli bir alana yönelik sınırlı sayıda dersi tamamlamasıyla, diploma yerine geçmeyen ve sadece eğitim alınan alanda bir başarı belgesi (Yan Dal Sertifikası) almasını sağlayan bir programdır.",
+    "persona_name": "Struggling Senior",
+    "query_style": "WEB_SEARCH_LIKE",
+    "query_length": "LONG",
+    "synthesizer_name": "single_hop_specific_query_synthesizer"
+  },
+  {
+    "user_input": "bu 01.02.2022 tarihli dokuman ne diyor ek sinavlar icin? benim durumum kotu, teorik derslerden kaldim, hak verilir mi?",
+    "reference_contexts": [
+      "Doküman No: YÖ-096; Revizyon Tarihi: 01.02.2022; Revizyon No:00                                  Sayfa 5 / 7 \n \nEk Sınav, Ek Süre, Sınırsız Sınav, İlişik Kesme \n \nEk Sınav \nMADDE 12- (1) Öğrencinin mezun olabilmesi  için eğitim planındaki başarısız olduğu tüm \nteorik dersler için  öğrencilere, azami öğrenim süresini tamamladığı yarıyıldan sonraki \ndönemi kapsayacak şekilde iki ek sınav hakkı verilir. \n \n(2) Öğrencinin mezun olabilmesi  için eğitim planındaki başarısız olduğu tüm uygulamalı \ndersler için öğrencilere, azami öğrenim süresini tamamladığı yarıyıldan sonraki dönemde ilgili \nbölüm başkanlıklarınca en az 4 haftalık uygulama programı hazırlanır ve sonrasında ise dönem \niçinde kalacak şekilde iki ek sınav hakkı verilir. Birinci ek sınavdan başarısız olan öğrenciye yine \ndönem içinde kalacak şekilde kısa telafi programı uygulanarak ikinci ek sınav yapılır. \n(3) Azami öğrenim süresini tamamlayan öğrencilere talep etmeleri durumunda eğitim"
+    ],
+    "reference": "01.02.2022 revizyon tarihli dokümana göre, azami öğrenim süresini tamamladığı yarıyıldan sonraki dönemi kapsayacak şekilde, öğrencinin mezun olabilmesi için eğitim planındaki başarısız olduğu tüm teorik dersler için iki ek sınav hakkı verilir. Başarısız olunan uygulamalı dersler için ise, ilgili bölüm başkanlıklarınca en az 4 haftalık bir uygulama programı hazırlanır ve sonrasında dönem içinde kalacak şekilde iki ek sınav hakkı tanınır. Birinci ek sınavdan başarısız olan öğrenciye, yine dönem içinde kalacak şekilde kısa telafi programı uygulanarak ikinci ek sınav yapılır.",
+    "persona_name": "Struggling Senior",
+    "query_style": "POOR_GRAMMAR",
+    "query_length": "MEDIUM",
+    "synthesizer_name": "single_hop_specific_query_synthesizer"
+  },
+  {
+    "user_input": "Büyük Veri Analitiği dersi için öğrenci oyları neden bu kadar düşük, kim bu dersi veriyor?",
+    "reference_contexts": [
+      "Ders: Büyük Veri Analitiği (0. Yıl, yok Dönemi, Lisansüstü). Dersi veren hocalar: Belirtilmemiş. Öğrencilerin oylarına göre kolaylık puanı 0/100, gereklilik puanı 0/100."
+    ],
+    "reference": "Lisansüstü seviyesindeki Büyük Veri Analitiği dersi için öğrencilerin oylarına göre kolaylık puanı 0/100 ve gereklilik puanı 0/100 olarak belirtilmiştir. Dersi veren hocalar belirtilmemiştir.",
+    "persona_name": "Dr. Anya Sharma",
+    "query_style": "POOR_GRAMMAR",
+    "query_length": "MEDIUM",
+    "synthesizer_name": "single_hop_specific_query_synthesizer"
+  },
+  {
+    "user_input": "YTÜ mezuniyet diplomasının ön yüzünde mezun olunan Fakülte adının yer alıp almadığına dair kesin bilgi nedir ve bu bilgi YÖ-119 numaralı dokümana göre nasıl belirtilmiştir?",
+    "reference_contexts": [
+      "Doküman No: YÖ-119; Revizyon Tarihi:28.08.2025;Revizyon No:00                                    Sayfa 3 / 10 \n \nDiplomada Yer Alan Bilgiler  \nMadde 9- (1) Diplomalarda yer alan kimlik bilgileri, öğrencinin mezuniyet tarihinde YTÜ Öğrenci \nBilgi Sisteminde yer alan bilgiler esas alınarak düzenlenir.  \n(2) Diplomaların ön yüzünde; \na) Üniversitenin adı, \nb) Mezun olan öğrencinin adı soyadı,  \nc) Mezun olunan Meslek Yüksekokulu/Fakülte/Enstitü adı, \nç) Ön lisans ve lisans diplomalarında bölüm ve program adı ; lisansüstü programlarda anabilim \ndalı ve program adı, \nd) Unvan yazmayan diplomalarda diploma derecesi (Ön lisans/lisans/tezli -tezsiz yüksek \nlisans/doktora veya sanatta yeterlilik diploması); unvan yazılan diplomalarda kazanılan unvan \nadı, \ne) Dekan/Müdür ve Rektör ismi, imzası, \nf) Mezun olan öğrencinin Türkiye Cumhuriyeti Kimlik Numarası/ Yabancı uyruklular için yabancı \nuyruklu Türkiye Cumhuriyeti kimlik numarası, \ng) Diploma numarası, \nğ) Mezuniyet tarihi \nyer alır."
+    ],
+    "reference": "YÖ-119 numaralı dokümanın 9. Maddesinin ikinci fıkrasına göre, diplomaların ön yüzünde mezun olunan Meslek Yüksekokulu/Fakülte/Enstitü adı yer alır.",
+    "persona_name": "Struggling Senior",
+    "query_style": "WEB_SEARCH_LIKE",
+    "query_length": "LONG",
+    "synthesizer_name": "single_hop_specific_query_synthesizer"
+  },
+  {
+    "user_input": "YTÜ Bilgisayar Mühendisliği bölümü mezunlarının kariyer beklentilerini değerlendirirken, 2023-2024 dönemi için belirtilen mezun maaşları ve bu maaşlardaki artış oranı ile 2024-2025 dönemi için raporlanan mezun işsizlik oranı arasında nasıl bir ilişki kurulabilir?",
+    "reference_contexts": [
+      "<1-hop>\n\n[BÖLÜM 1 - Kapsam ve Terminoloji]\nBu teknik doküman, 2023-2024 Yılı İstatistikleri dönemi için Yarı Zamanlı - Normal Çalışan ve Mezunlara yönelik Genel Maaş Ortalamaları ve Artış Oranı analizini kapsamaktadır. Tablo, genel ortalama aylık net maaş verilerini ve bu maaşların yıllık artış oranını sunarak dönemsel finansal eğilimleri göstermektedir. Tabloda geçen pozisyon/alan adı: Ortalama Maaş (Average Salary, Net Kazanç, Aylık Gelir).\n\n[BÖLÜM 2 - Sayısal Özet]\nGenel Maaş Ortalamaları: 2023 15000 TL, 2024 26000 TL, artış oranı %73.33.\n\n[BÖLÜM 3 - Anahtar Kelimeler]\nmaaş, ücret, kazanç, gelir, ortalama, artış oranı, istatistik, YTÜ, bilgisayar mühendisliği, Genel Maaş Ortalaması, Yarı Zamanlı Maaş, Mezun Maaşı, Normal Çalışan Maaşı, 2023, 2024, 2023-2024, Yarı Zamanlı, Normal Çalışan, Mezun",
+      "<2-hop>\n\n[BÖLÜM 1 - Kapsam ve Terminoloji]\nBu belge, 2024-2025 Yılı İstatistikleri dönemine ait Genel çalışma tipindeki Genel kategori verilerini kapsamaktadır. Tablo, belirli durumlara ilişkin işsizlik ve yurt dışı çalışma oranlarını yüzdesel olarak sunarak istihdam durumu hakkında bilgi vermektedir. Tabloda geçen alanlar şunlardır: Mezun işsizlik (graduate unemployment, mezuniyet sonrası), Mezun olmayan işsizlik (non-graduate unemployment, eğitimsiz işsiz), Yurt dışı istihdam (overseas employment, uluslararası iş).\n\n[BÖLÜM 2 - Sayısal Özet]\nMezunların % kaçı işsiz: %11.11.\nMezun olmayanların % kaçı işsiz: %28.57.\nYurt dışında çalışmayanların oranı: %96.55.\n\n[BÖLÜM 3 - Anahtar Kelimeler]\nMezun işsizlik, Mezun olmayan işsizlik, Yurt dışı istihdam, 2024, 2025, 2024-2025 Yılı İstatistikleri, Genel, maaş, ücret, kazanç, gelir, ortalama, artış oranı, istatistik, YTÜ, bilgisayar mühendisliği"
+    ],
+    "reference": "Sağlanan verilere göre, YTÜ Bilgisayar Mühendisliği mezunları için finansal ve istihdam durumu şu şekilde özetlenebilir: 2023-2024 dönemi için genel maaş ortalamaları, 2023'te 15000 TL iken 2024'te 26000 TL'ye yükselerek %73.33'lük bir artış göstermiştir ve bu analiz mezun maaşlarını da kapsamaktadır. Diğer yandan, 2024-2025 dönemi istatistiklerine göre mezun işsizlik oranı %11.11 olarak belirtilmiştir. Bu iki veri birleştirildiğinde, mezunlar için maaşlarda önemli bir artış eğilimi olmasına rağmen, aynı zamanda dikkate değer bir işsizlik riskinin de mevcut olduğu görülmektedir.",
+    "persona_name": "",
+    "query_style": "",
+    "query_length": "",
+    "synthesizer_name": "multi_hop_abstract_query_synthesizer"
+  },
+  {
+    "user_input": "YTÜ Senatosu'nun yurtdışından öğrenci kabul sınavları için belirlediği minimum puan gereklilikleri tam olarak nedir, mesela mühendislik fakültesne girmek için SAT veya TR-YÖS'den kaç puan almam gerekior ve bu kararlar ne zaman yürürlüğe girmiş?",
+    "reference_contexts": [
+      "<1-hop>\n\ndaha önce aldığı: \n06.02.2003-03/02, \n22.05.2003-07/03, \n25.07.2003-10/02. \n01.05.2003-06/04, \n10.03.2005-03/02, \n07.06.2007-11/02 \ngün, sayı ve sıra sayılı kararları tümüyle yürürlükten kaldırılmıştır. \n \nYürürlük \nMADDE 15 - (1) Bu esaslar, YTÜ Senatosu’nda kabul edildiği tarihte yürürlüğe girer.  \n \nYürütme \nMADDE 16 - (1) Bu esaslar, YTÜ Rektörü tarafından yürütülür.",
+      "<2-hop>\n\neşdeğer aşağıdaki muadil belgelere*  (Değişik: 21.07.2025/07-07 sayılı \nSenato) sahip olması gerekir.  \n \nSAT (Scholastic Assessment Test) \n1600 üzerinden en az 1100 toplam puan + (Mühendislik Fakülteleri, Mimarlık Fakülteleri \nve Fen-Edebiyat Fakültesinin Fen Bilimleri programları için 800 üzerinden en az 550 \n‘’Math’’ puan) \nSanat ve Tasarım Fakültesi için 1600 üzerinden 800 \nACT (American College Testing) \n36 üzerinden en az 24 puan \nSanat ve Tasarım Fakültesi için 36 üzerinden 18 \nAPT (Advanced Placement Test) \nİkisi başvurulan programla ilgili olmak üzere, üç Advanced Placement konusundan en az \n14 (5,5,4) puan almış olmak. \nTR-YÖS (Türkiye Yurt Dışından Öğrenci Kabul Sınavı) \n500 puan üzerinden en az 450 puan \nABITUR (Genel Alman Yüksekokul Yeterliliği) \nEn fazla 3 puan (1-3 puan arası) \nUluslararası Bakalorya (IB International Baccalaureate) \n45 puan üzerinden en az 30 puan \nFransız Bakaloryası  (Gine Bakaloryası, Çad Bakaloryası, Fas Bakaloryası, Mali"
+    ],
+    "reference": "Mühendislik Fakülteleri için yurt dışından öğrenci kabul sınavları kapsamında gereken minimum puanlar şunlardır: SAT sınavından 1600 üzerinden en az 1100 toplam puan ve ek olarak 800 üzerinden en az 550 'Math' puanı; TR-YÖS sınavından ise 500 puan üzerinden en az 450 puan alınması gerekmektedir. Bu esaslar, YTÜ Senatosu’nda kabul edildiği tarihte yürürlüğe girer.",
+    "persona_name": "",
+    "query_style": "",
+    "query_length": "",
+    "synthesizer_name": "multi_hop_abstract_query_synthesizer"
+  },
+  {
+    "user_input": "Benim lisans programları için azami sürem dolmak üzere ve ben yurt dışından öğrenci kabul sınavları ile girmiştim, Çin'den GAOKAO ile. Şimdi bu sınavdan aldığım 450 puanın puan standardizasyonu nasıl yapılıyor ve bu standart puan benim mezuniyet durumumu nasıl etkiler?",
+    "reference_contexts": [
+      "<1-hop>\n\nYıldız Teknik Üniversitesi Ön lisans ve Lisans Eğitim-Öğretim Yönetmeliğinin 17. maddesi esas \nalınarak hazırlanmıştır. \n \nTanımlar \nMADDE 4 – (1) Bu Yönergede geçen; \na) Azami Öğrenim Süresi: Öğrenim süresi iki yıl olan ön lisans programlarında azami dört \nyıl (8 yarıyıl), öğrenim süresi dört yıl olan lisans programlarında azami yedi yıl (14 yarıyıl) \nolarak öğrenimlerini tamamlamak için tanımlanan süreyi, \nb) Başarısız ders:  Azami öğrenimi sonunda öğrencinin kayıtlı olduğu programın eğitim \nplanındaki başardığı derslerin dışındaki derslerinin tümünü (hiç almadığı; alıp F0, FF, FD, \nDD notu ile kaldığı dersler) \nc) Ek sınav: Azami öğrenim süresini tamamlayan öğrencilere, başarısız olduğu ders sayısını \nen fazla beş derse indirebilmesi için, verilen iki sınav hakkını, \nd) Ek Süre: Azami öğrenim süresi sonunda veya ek sınavlar sonunda başarısız ders sayısını \nen fazla beş derse indiren  öğrencilere tanınan üç yarıyıl; ek sınav hakkını kullanmadan",
+      "<2-hop>\n\neşdeğer aşağıdaki muadil belgelere*  (Değişik: 21.07.2025/07-07 sayılı \nSenato) sahip olması gerekir.  \n \nSAT (Scholastic Assessment Test) \n1600 üzerinden en az 1100 toplam puan + (Mühendislik Fakülteleri, Mimarlık Fakülteleri \nve Fen-Edebiyat Fakültesinin Fen Bilimleri programları için 800 üzerinden en az 550 \n‘’Math’’ puan) \nSanat ve Tasarım Fakültesi için 1600 üzerinden 800 \nACT (American College Testing) \n36 üzerinden en az 24 puan \nSanat ve Tasarım Fakültesi için 36 üzerinden 18 \nAPT (Advanced Placement Test) \nİkisi başvurulan programla ilgili olmak üzere, üç Advanced Placement konusundan en az \n14 (5,5,4) puan almış olmak. \nTR-YÖS (Türkiye Yurt Dışından Öğrenci Kabul Sınavı) \n500 puan üzerinden en az 450 puan \nABITUR (Genel Alman Yüksekokul Yeterliliği) \nEn fazla 3 puan (1-3 puan arası) \nUluslararası Bakalorya (IB International Baccalaureate) \n45 puan üzerinden en az 30 puan \nFransız Bakaloryası  (Gine Bakaloryası, Çad Bakaloryası, Fas Bakaloryası, Mali",
+      "<3-hop>\n\nÇİN HALK CUMHURİYETİ (GAOKAO) 450 750 STANDART PUAN=(PUAN-MİN)*(40/(MAK-MİN))+60 \nJAPONYA 3 5 STANDART PUAN=(PUAN-MİN)*(40/(MAK-MİN))+60 \nİSPANYA (TITULO DE BACHILLER) 6 10 STANDART PUAN=(PUAN-MİN)*(40/(MAK-MİN))+60 \nARJANTİN (TITULO DE BACHILLER) 6 10 STANDART PUAN=(PUAN-MİN)*(40/(MAK-MİN))+60 \nMEKSİKA (BACHILLERATO) 6 10 STANDART PUAN=(PUAN-MİN)*(40/(MAK-MİN))+60 \nFİNLANDİYA 4 7 STANDART PUAN=(PUAN-MİN)*(40/(MAK-MİN))+60 \nLİTVANYA 6 10 STANDART PUAN=(PUAN-MİN)*(40/(MAK-MİN))+60 \nGÜNEY AFRİKA 4 7 STANDART PUAN=(PUAN-MİN)*(40/(MAK-MİN))+60 \nGÜNEY KORE (CSAT) 60 100 STANDART PUAN=(PUAN-MİN)*(40/(MAK-MİN))+60 \nENDONEZYA  (UJIAN TERTULIS \nBERBASIS KOMPUTER - UTBK) 600 1000 STANDART PUAN=(PUAN-MİN)*(40/(MAK-MİN))+60 \nVİETNAM 6 10 STANDART PUAN=(PUAN-MİN)*(40/(MAK-MİN))+60 \nRUSYA  70 100 STANDART PUAN=PUAN \nUKRAYNA 180 200 STANDART PUAN=(PUAN-MİN)*(40/(MAKS-MİN))+60 \n \nMİN      : İlgili sınav/diploma türüne göre kabul edilecek asgari puanı temsil eder."
+    ],
+    "reference": "Çin Halk Cumhuriyeti'nin GAOKAO sınavından alınan 450 puan, üniversiteye yurt dışından öğrenci kabulü için gereken asgari puandır. Bu puanın standardizasyonu, 'STANDART PUAN=(PUAN-MİN)*(40/(MAK-MİN))+60' formülü kullanılarak yapılır. Ancak, bu puan standardizasyonu ve yurt dışından öğrenci kabul sınavları, üniversiteye giriş aşamasında geçerli olan kriterlerdir. Mezuniyet durumunuz, kayıtlı olduğunuz lisans programı için tanımlanan azami yedi yıllık öğrenim süresi ve bu süre sonundaki başarısız dersleriniz gibi yönetmeliklerle ilgilidir. Sağlanan metinlerde, giriş puanının mezuniyet durumunu doğrudan etkilediğine dair bir bilgi bulunmamaktadır.",
+    "persona_name": "",
+    "query_style": "",
+    "query_length": "",
+    "synthesizer_name": "multi_hop_abstract_query_synthesizer"
+  },
+  {
+    "user_input": "Yıldız Teknik Üniversitesi Bilgisayar Mühendisliği gibi dört yıllık lisans programları için tanınan azami yedi yıllık öğrenim süresinin sonuna yaklaşan bir öğrenci olarak, başarısız derslerim olması durumunda yönetmeliğe göre ne gibi ek sınav veya ek süre haklarım bulunmaktadır? Bu akademik seçenekleri değerlendirirken, sunulan Maaş Analizi'nde belirtilen 'Freelance ve Mezun Değil' statüsündeki bireyler için 2024'te 70.000 TL olan ve 2025'te 300.000 TL'ye yükselen genel maaş ortalamaları kararımı nasıl etkileyebilir?",
+    "reference_contexts": [
+      "<1-hop>\n\nYıldız Teknik Üniversitesi Ön lisans ve Lisans Eğitim-Öğretim Yönetmeliğinin 17. maddesi esas \nalınarak hazırlanmıştır. \n \nTanımlar \nMADDE 4 – (1) Bu Yönergede geçen; \na) Azami Öğrenim Süresi: Öğrenim süresi iki yıl olan ön lisans programlarında azami dört \nyıl (8 yarıyıl), öğrenim süresi dört yıl olan lisans programlarında azami yedi yıl (14 yarıyıl) \nolarak öğrenimlerini tamamlamak için tanımlanan süreyi, \nb) Başarısız ders:  Azami öğrenimi sonunda öğrencinin kayıtlı olduğu programın eğitim \nplanındaki başardığı derslerin dışındaki derslerinin tümünü (hiç almadığı; alıp F0, FF, FD, \nDD notu ile kaldığı dersler) \nc) Ek sınav: Azami öğrenim süresini tamamlayan öğrencilere, başarısız olduğu ders sayısını \nen fazla beş derse indirebilmesi için, verilen iki sınav hakkını, \nd) Ek Süre: Azami öğrenim süresi sonunda veya ek sınavlar sonunda başarısız ders sayısını \nen fazla beş derse indiren  öğrencilere tanınan üç yarıyıl; ek sınav hakkını kullanmadan",
+      "<2-hop>\n\n[BÖLÜM 1 - Kapsam ve Terminoloji]\nBu teknik döküman, 2024-2025 Yılı İstatistikleri dönemine ait, Freelance ve Mezun Değil için Maaş Analizi çalışma tipindeki Genel Maaş Ortalamaları (2024–2025) ve Artış Oranı kategorisindeki verileri ele almaktadır. Tablo, belirtilen dönem ve çalışma tipi için genel maaş ortalamalarını ve bu ortalamalar arasındaki yıllık artış oranını sunarak finansal eğilimleri özetlemektedir. Genel Maaş Ortalamaları (Average Salaries, Overall Earnings).\n\n[BÖLÜM 2 - Sayısal Özet]\nGenel Maaş Ortalamaları (2024–2025): 2024 70000 TL, 2025 300000 TL, artış oranı %328.57.\n\n[BÖLÜM 3 - Anahtar Kelimeler]\nGenel Maaş Ortalamaları, 2024-2025 Yılı İstatistikleri, 2024, 2025, Freelance ve Mezun Değil, maaş, ücret, kazanç, gelir, ortalama, artış oranı, istatistik, YTÜ, bilgisayar mühendisliği"
+    ],
+    "reference": "Yıldız Teknik Üniversitesi yönetmeliğine göre, öğrenim süresi dört yıl olan lisans programlarında azami öğrenim süresi yedi yıldır. Bu süreyi tamamlayan ve başarısız dersleri olan öğrencilere, başarısız ders sayısını en fazla beşe indirebilmeleri için iki ek sınav hakkı tanınır. Ek sınavlar sonunda veya bu hakkı kullanmadan başarısız ders sayısını beşe indiren öğrencilere ise üç yarıyıl ek süre verilir. Bu akademik durumu değerlendirirken, sunulan Maaş Analizi'ne göre 'Freelance ve Mezun Değil' statüsündeki bireyler için genel maaş ortalamasının 2024'te 70.000 TL'den 2025'te 300.000 TL'ye yükselmesi, öğrencinin ek haklarını kullanarak eğitimine devam etme veya mezun olmadan çalışma hayatına atılma seçenekleri arasındaki kararını etkileyebilecek önemli bir finansal veridir.",
+    "persona_name": "",
+    "query_style": "",
+    "query_length": "",
+    "synthesizer_name": "multi_hop_abstract_query_synthesizer"
+  },
+  {
+    "user_input": "Yıldız Teknik Üniversitesi'nde yeni bir lisans programı açılması sürecinde, üniversitenin kendi belirlediği esasların yasal dayanağı nedir ve bu süreçte YÖK tarafından belirlenen 'Lisans Programı Açma Ölçütleri'nin rolü tam olarak nedir? Başka bir deyişle, bir program önerisinin kabul edilebilmesi için YÖK'ün hangi spesifik formatına uygun olması gerekmektedir?",
+    "reference_contexts": [
+      "<1-hop>\n\nDoküman No: DD-014; Revizyon Tarihi: 09.11.2017; Revizyon No: 04                                                                    \n \n \nc) Stajlar birinci sınıf hariç diğer üç sınıftaki her iki yarıyıla da konabileceğinden staj kodları \n“Bölüm Kodu2001 ”, “Bölüm Kodu2002 ”, “Bölüm Kodu3001 ”, “Bölüm Kodu3002 ”, “Bölüm \nKodu4001”,  “Bölüm Kodu4002” şeklinde olmalıdır. Bu nedenle belirtilen bu kodların da başka hiçbir \nderse verilmemesi gerekmektedir. \n \nMADDE 8 - (1) Yıldız Teknik Üniversitesi’nde yeni bir lisans programının önerilebilmesi için, \nYÖK’ün “Lisans Programı Açılması İçin Gerekli Ölçütler ve Başvuru Formatı”na uygun olması \ngerekmektedir. \n \n \nÜÇÜNCÜ BÖLÜM \nDersler \nMADDE 9  - (1) Lisans programlarında olması gereken, bölümlere bağlı olarak değişiklik \ngösterebilir, temel dersler ve yarıyılları Tablo 2’de verilmiştir. Ders planlarının YTÜ Senatosu tarafından \nonaylanması sırasında, bu derslerin, üniversite ölçeğinde, yarıyıllara dengeli dağılımı gözetilir.",
+      "<2-hop>\n\nDoküman No: DD-014; Revizyon Tarihi: 09.11.2017; Revizyon No: 04                                                                    \n \n \n \nEk.9.1: 09.11.2017/07-09 gün ve sayılı Senato kararı ekidir. \n \n \nYILDIZ TEKNİK ÜNİVERSİTESİ \nLİSANS PROGRAMI AÇMA VE YÜRÜTME ESASLARI \n(07.02.2013 tarih ve 2013/03-16 sayılı Senato’da kabul edilmiştir.) \n \n \nBİRİNCİ BÖLÜM \nDayanak, Amaç ve Kapsam \n \nDayanak \n MADDE 1 - (1) Bu Esaslar; YÖK - Yüksek Öğretim Kurumlarında Akademik Değerlendirme ve \nKalite Geliştirme Yönetmeliği, “YÖK - Lisans Programı Açma Ölçütleri”, “YTÜ - Akademik \nDeğerlendirme ve Kalite Geliştirme Yönergesi”, “YTÜ - Önlisans ve Lisans Eğitim -Öğretim \nYönetmeliği” ve “YÖK - Bologna Süreci” esaslarından yararlanılarak hazırlanmıştır. \n \nAmaç ve kapsam \nMADDE 2 - (1) Bu esaslar ile Yıldız Teknik Üniversitesinde yeni lisans programlarının açılması \nve mevcut lisans programlarının geliştirilmesi amaçlanmıştır. \n \n \nİKİNCİ BÖLÜM \nTemel Esaslar"
+    ],
+    "reference": "Yıldız Teknik Üniversitesi'nin Lisans Programı Açma ve Yürütme Esasları; YÖK - Yüksek Öğretim Kurumlarında Akademik Değerlendirme ve Kalite Geliştirme Yönetmeliği, “YÖK - Lisans Programı Açma Ölçütleri”, “YTÜ - Akademik Değerlendirme ve Kalite Geliştirme Yönergesi”, “YTÜ - Önlisans ve Lisans Eğitim-Öğretim Yönetmeliği” ve “YÖK - Bologna Süreci” esaslarından yararlanılarak hazırlanmıştır. Bu kapsamda, üniversitede yeni bir lisans programının önerilebilmesi için, YÖK’ün “Lisans Programı Açılması İçin Gerekli Ölçütler ve Başvuru Formatı”na uygun olması gerekmektedir.",
+    "persona_name": "",
+    "query_style": "",
+    "query_length": "",
+    "synthesizer_name": "multi_hop_specific_query_synthesizer"
+  },
+  {
+    "user_input": "YTÜ lisans programları için ders planlarının onaylanması sürecinde YTÜ Senatosu'nun rolü nedir ve bu esasların YTÜ Senatosu tarafından kabul edildikten sonra yürürlüğe girmesi nasıl işlemektedir?",
+    "reference_contexts": [
+      "<1-hop>\n\nDoküman No: DD-014; Revizyon Tarihi: 09.11.2017; Revizyon No: 04                                                                    \n \n \nc) Stajlar birinci sınıf hariç diğer üç sınıftaki her iki yarıyıla da konabileceğinden staj kodları \n“Bölüm Kodu2001 ”, “Bölüm Kodu2002 ”, “Bölüm Kodu3001 ”, “Bölüm Kodu3002 ”, “Bölüm \nKodu4001”,  “Bölüm Kodu4002” şeklinde olmalıdır. Bu nedenle belirtilen bu kodların da başka hiçbir \nderse verilmemesi gerekmektedir. \n \nMADDE 8 - (1) Yıldız Teknik Üniversitesi’nde yeni bir lisans programının önerilebilmesi için, \nYÖK’ün “Lisans Programı Açılması İçin Gerekli Ölçütler ve Başvuru Formatı”na uygun olması \ngerekmektedir. \n \n \nÜÇÜNCÜ BÖLÜM \nDersler \nMADDE 9  - (1) Lisans programlarında olması gereken, bölümlere bağlı olarak değişiklik \ngösterebilir, temel dersler ve yarıyılları Tablo 2’de verilmiştir. Ders planlarının YTÜ Senatosu tarafından \nonaylanması sırasında, bu derslerin, üniversite ölçeğinde, yarıyıllara dengeli dağılımı gözetilir.",
+      "<2-hop>\n\ndaha önce aldığı: \n06.02.2003-03/02, \n22.05.2003-07/03, \n25.07.2003-10/02. \n01.05.2003-06/04, \n10.03.2005-03/02, \n07.06.2007-11/02 \ngün, sayı ve sıra sayılı kararları tümüyle yürürlükten kaldırılmıştır. \n \nYürürlük \nMADDE 15 - (1) Bu esaslar, YTÜ Senatosu’nda kabul edildiği tarihte yürürlüğe girer.  \n \nYürütme \nMADDE 16 - (1) Bu esaslar, YTÜ Rektörü tarafından yürütülür."
+    ],
+    "reference": "Lisans programlarındaki ders planlarının YTÜ Senatosu tarafından onaylanması sırasında, derslerin üniversite ölçeğinde yarıyıllara dengeli bir şekilde dağıtılması gözetilir. Ayrıca, bu esaslar YTÜ Senatosu'nda kabul edildiği tarihte yürürlüğe girer.",
+    "persona_name": "",
+    "query_style": "",
+    "query_length": "",
+    "synthesizer_name": "multi_hop_specific_query_synthesizer"
+  },
+  {
+    "user_input": "Kurum içi yatay geçiş şartları ve 2547 sayılı Kanun arasındaki bağlantı nedir?",
+    "reference_contexts": [
+      "<1-hop>\n\nDoküman No: YÖ-098; Revizyon Tarihi: 21.07.2025; Revizyon No:04                                  Sayfa: 4/29 \n \n(6) Öğrencilerin merkezi yerleştirme sınavına girdiği yıl itibarıyla Kurum İçi Yatay Geçiş  başvurusu \nyapmak istediği program için geçerli olan puan türünde aldığı merkezi yerleştirme puanının, \ngeçmek istediği diploma programına eşdeğer yurt içindeki diğer üniversitelerin diploma \nprogramlarının en düşük taban puanından az olmaması gerekir. \n(7) Üniversitemize merkezi yerleştirme sınavı dışındaki sınavlarla (Dikey Geçiş dahil) veya Türkiye \nBursları kapsamında Ülkelerarası Anlaşmalara göre yerleştirilen öğrenciler Kurum İçi Yatay Geçiş  \nbaşvurusu yapamaz. \n(8) Yetenek sınavı ile öğrenci alan diploma programlarına Kurum İçi Yatay Geçişlerde diğer \nşartların yanı sıra yetenek sınavında da başarılı olma şartı aranır. Belirtilen şartları sağlamayanların \nbaşvurusu kabul edilmez.  \n(9) (Değişik: 21.07.2025/07-07 sayılı Senato)  2547 sayılı Kanunun 54. maddesi nde sayılan"
+    ],
+    "reference": "Kurum içi yatay geçiş için merkezi yerleştirme puanının, geçilmek istenen programın taban puanından az olmaması ve yetenek sınavı ile öğrenci alan programlar için bu sınavda başarılı olunması gibi şartlar aranır. Bu şartlar ve düzenlemeler, 21.07.2025 tarihli Senato kararıyla yapılan değişiklikle, 2547 sayılı Kanun'un 54. maddesine dayandırılmaktadır.",
+    "persona_name": "",
+    "query_style": "",
+    "query_length": "",
+    "synthesizer_name": "multi_hop_specific_query_synthesizer"
+  },
+  {
+    "user_input": "Öğrenci İşleri Daire Başkanlığı hem kayıp yan dal sertifikası için işlem yapıyo hem de Türkçe belgesi getirmeyenin kaydını siliyo, bu iki farklı durumda Öğrenci İşleri Daire Başkanlığı'nın yaptığı işlemler tam olarak nelerdir?",
+    "reference_contexts": [
+      "<1-hop>\n\n(2) Yan Dal Sertifikasının kaybedilmesi durumunda mezun öğrencinin dilekçe, Yan Dal \nSertifikasının kaybına ilişkin gazete ilanı, T.C. Kimlik Belgesi/Geçerli Pasaport fotokopisi ve Yan Dal \nSertifikasının yeniden düzenlenebilmesi için ücretin yatırıldığını gösterir dekont ile Öğrenci İşleri \nDaire Başkanlığı'na başvurması gerekmektedir. (Ek-1’de gazete ilanı örnekleri verilmiştir.)  \n(3) Yan Dal Sertifikasının tahribi/kaybedilmesi halinde, aslına uygun olarak yeniden düzenlenen \nYan Dal Sertifikası nın ön yüzünde ‘‘İKİNCİ NÜSHA’’ ibaresi yer alır ve öğrencinin mezuniyet \nkararının alındığı tarihte görevde bulunan Dekan/Müdür ve Rektörün adı soyadı yazılır. Arka \nyüzünde ise belgenin ikinci kez hazırlandığı belirtilir ve belgenin düzenlendiği tarihte görevde \nbulunan Dekan/Müdür ve Rektör tarafından imzalanır. İkinci Nüsha Yan Dal Sertifikası, ön yüzünde \nYTÜ logosunu içeren hologramlı ve pürüzlü bir yapıya sahip olan Tuale kağıda basılır.",
+      "<2-hop>\n\n1 (bir) yıl içinde Üniversitemize bağlı TÖMER veya Yunus Emre Enstitüsü tarafından verilecek en \naz B1 seviyesinde Türkçe Yeterlik Belgesini almaları gerekir. Bu süre zarfında Türkçe Yeterlik \nBelgesi getiremeyenler ek 1 (bir) yıl süre ile izinli sayılırlar.  Yasal süreler içerisinde Türkçe Dil \nBelgesini Üniversiteye ibraz etmeyen öğrencilerin kayıtları Öğrenci İşleri Daire Başkanlığı \ntarafından silinir. \n(4) (Değişik: 22.10.2025/10-06 sayılı Senato)  %100 Fransızca  eğitim veren Fransızca \nMütercim ve Tercümanlık programına kabul edilen öğrenciler aşağıdaki şartlardan en az birini \ntaşıması kaydıyla Fransızca hazırlık eğitiminden muaf tutulur:   \na) Fransızca Mütercim ve Tercümanlık Programına başvuracakların ilgili program tarafından \nyapılan Fransızca Yeterlik Sınavından (FYS) başarılı olmak,  \nb) Özel Fransız liseleri ya da Fransızca hazırlık eğitimi veren Türk liselerinden mezun olmak,"
+    ],
+    "reference": "Yan Dal Sertifikasının kaybedilmesi durumunda, mezun öğrencinin dilekçe, gazete ilanı, kimlik fotokopisi ve ücret dekontu ile Öğrenci İşleri Daire Başkanlığı'na başvurması gerekir. Bu durumda yeniden düzenlenen sertifikanın ön yüzünde \"İKİNCİ NÜSHA\" yazar. Diğer yandan, yasal süreler içinde en az B1 seviyesinde Türkçe Yeterlik Belgesini ibraz etmeyen öğrencilerin kayıtları da Öğrenci İşleri Daire Başkanlığı tarafından silinir.",
+    "persona_name": "",
+    "query_style": "",
+    "query_length": "",
+    "synthesizer_name": "multi_hop_specific_query_synthesizer"
+  },
+  {
+    "user_input": "Benim öğrenci işleriyle ilgili bir sorunum var, başka bölüme geçiş yapmak istiyorum ama nasıl yapacağımı bilmiyorum. Bu geçiş işlemlerini Rektörlük mü merkezi olarak yürütüyor, yoksa başka bir yere mi başvurmam lazım?",
+    "reference_contexts": [
+      "<1-hop>\n\nh) Rektör: Yıldız Teknik Üniversitesi Rektörünü,\nı) Rektörlük: Yıldız Teknik Üniversitesi Rektörlüğünü,\ni) Senato: Yıldız Teknik Üniversitesi Senatosunu,\nj) Üniversite: Yıldız Teknik Üniversitesini,\nk) Üniversite Yönetim Kurulu: Yıldız Teknik Üniversitesi Yönetim Kurulunu,\nl) Yarıyıl: Bir akademik yıldaki güz veya bahar dönemini,\nm) Yarıyıl süresi: Ders işlemlerinin başladığı tarihten itibaren bütünleme sınavlarının bitimine kadar geçen süreyi,\nn) Yüksekokul: Üniversiteye bağlı yüksekokulları,\nifade eder.\nÖğrencilik işlemleri\nMADDE 5 –\n (1) Öğrencilerin kayıt, kayıt yenileme, derse yazılma, sınavlar, intibak, çift anadal, geçişler, ilişik kesme ve benzeri her türlü\nişlemleri, ilgili fakülte/yüksekokul ve bölümlerce yapılır. Bunlardan gerekli görülenler, Rektörlükçe merkezi olarak da yürütülebilir.\n(2) Öğrencilik işlemleri ile ilgili sorunlarla karşılaşılması durumunda ilgili bölüm başkanlığına yazılı olarak başvurulur. Fakülte yönetim kurulu"
+    ],
+    "reference": "Yıldız Teknik Üniversitesi Rektörlüğü anlamına gelen Rektörlük, gerekli gördüğü durumlarda geçişler gibi öğrenci işlemlerini merkezi olarak yürütebilir. Ancak, normalde geçişler ve benzeri her türlü öğrenci işlemi ilgili fakülte/yüksekokul ve bölümlerce yapılır. Öğrencilik işlemleri ile ilgili bir sorunla karşılaştığınızda, ilgili bölüm başkanlığına yazılı olarak başvurmanız gerekmektedir.",
+    "persona_name": "",
+    "query_style": "",
+    "query_length": "",
+    "synthesizer_name": "multi_hop_specific_query_synthesizer"
+  }
+]
