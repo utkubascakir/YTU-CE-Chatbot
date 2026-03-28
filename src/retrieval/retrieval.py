@@ -78,8 +78,9 @@ class YTUCEAssistant:
         # 2. Hybrid retrieval
         print("[INFO] Retrieving documents using Multi-Query Hybrid Search...")
         all_retrieved_docs = []
+        all_queries = list([user_query] + analysis_result.search_queries)
         try:
-            for query in analysis_result.search_queries:
+            for query in all_queries:
                 vector_docs = self.vector_db.similarity_search(query, k=5, filter=chroma_filter)
                 keyword_docs = self.keyword_retriever.invoke(query)
                 all_retrieved_docs.extend(vector_docs)
