@@ -30,6 +30,7 @@ chatbot/
 ├── Dockerfile
 ├── requirements.txt
 ├── .env.example
+├── LICENSE
 └── .gitignore
 ```
 
