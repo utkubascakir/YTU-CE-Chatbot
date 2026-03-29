@@ -1,0 +1,10 @@
+services:
+  chatbot:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./vector_db:/app/vector_db
+      - ./data:/app/data
+      - ./conversations.db:/app/conversations.db
+    restart: always
