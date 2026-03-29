@@ -1,90 +1,163 @@
-# YTU-CE Telegram Assistant (YTUCEAssistant)
+# YTU-CE Telegram Assistant
 
-This project is a Retrieval-Augmented Generation (RAG) system deployed as a Telegram bot. It provides accurate answers to questions about the Yıldız Technical University Computer Engineering (YTUCE) department, student comments, and university regulations.
+A Retrieval-Augmented Generation (RAG) based Telegram bot that answers questions about the Yıldız Technical University Computer Engineering department — including course information, university regulations, salary statistics, and student reviews.
 
-## 🚀 Features
+---
 
-- **Telegram Bot Interface:** Interact with the assistant directly via Telegram.
-- **Multi-source Data Ingestion:** Processes PDF regulations, Markdown files (salary statistics), and student comments in JSON format.
-- **Advanced Retrieval:** Uses ChromaDB as a vector database for efficient similarity search.
-- **LLM Integration:** Powered by Google Gemini models for natural language understanding and generation.
-- **Reranking:** Integrated with Cohere for better search result relevance (optional/configurable).
-- **Evaluation:** Includes an evaluation pipeline using the `Ragas` framework to measure context precision, recall, and faithfulness.
+## Features
 
-## 📂 Project Structure
+- **Telegram Bot Interface** — Interact with the assistant directly via Telegram
+- **Multi-source Ingestion** — Processes PDF regulations, Markdown files, and JSON-formatted student comments
+- **Hybrid Search** — Combines ChromaDB vector search with BM25 keyword retrieval and multi-query expansion
+- **Reranking** — Cohere reranker for improved result relevance
+- **Conversation Memory** — Stores chat history in SQLite and rewrites follow-up questions for context-aware retrieval
+- **Evaluation Pipeline** — RAGAS-based evaluation measuring context precision, recall, and faithfulness
+
+---
+
+## Project Structure
 
 ```text
 chatbot/
-├── data/               # Raw documents (PDF, MD, JSON)
+├── data/                   # Raw documents (PDF, Markdown, JSON)
 ├── src/
-│   ├── ingestion/      # Scripts for processing and indexing data
-│   ├── retrieval/      # Core RAG logic and LLM interaction
-│   └── evaluation/     # RAGAS evaluation scripts
-├── config/             # Configuration files
-├── app.py              # Telegram Bot application
-├── requirements.txt    # Project dependencies
-└── .gitignore          # Git ignore rules
+│   ├── ingestion/          # Data processing and vector DB creation
+│   ├── retrieval/          # Core RAG logic, query analysis, LLM interaction
+│   └── evaluation/         # RAGAS evaluation scripts
+├── config/                 # Configuration and settings
+├── app.py                  # Telegram bot entrypoint
+├── docker-compose.yaml
+├── Dockerfile
+├── requirements.txt
+├── .env.example
+└── .gitignore
 ```
 
-## 🛠️ Installation
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/utkubascakir/YTU-CE-Chatbot.git
-   cd YTU-CE-Chatbot
-   ```
+## Prerequisites
 
-2. Create a virtual environment and activate it:
-   ```bash
-   python -m venv venv
-   # On Windows:
-   venv\Scripts\activate
-   # On Unix/macOS:
-   source venv/bin/activate
-   ```
+You will need API keys for the following services:
 
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+| Service | Purpose |
+|---|---|
+| [Google Gemini](https://aistudio.google.com/) | LLM and embeddings |
+| [Cohere](https://cohere.com/) | Reranking |
+| [Telegram BotFather](https://t.me/BotFather) | Bot token |
 
-4. Set up environment variables:
-   Create a `.env` file in the root directory and add your API keys:
-   ```env
-   GOOGLE_API_KEY=your_gemini_api_key
-   COHERE_API_KEY=your_cohere_api_key
-   TELEGRAM_BOT_TOKEN=your_telegram_bot_token
-   ```
+---
 
-## 📖 Usage
+## Installation
 
-### 1. Data Ingestion
-Before running the assistant, you need to process the documents and create the vector database:
+### Option A: Docker (Recommended)
+
+**Requirements:** [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
 ```bash
+# 1. Clone the repository
+git clone https://github.com/utkubascakir/YTU-CE-Chatbot.git
+cd YTU-CE-Chatbot
+
+# 2. Set up environment variables
+cp .env.example .env
+# Fill in your API keys in .env
+
+# 3. Build the Docker image
+docker compose build
+
+# 4. Create the vector database (first time only)
+docker compose run --rm chatbot python -m src.ingestion.pipeline
+
+# 5. Start the bot
+docker compose up -d chatbot
+
+# 6. View logs
+docker compose logs -f chatbot
+```
+
+To stop the bot:
+```bash
+docker compose down
+```
+
+To restart without rebuilding (vector DB is preserved on your local disk):
+```bash
+docker compose up -d chatbot
+```
+
+---
+
+### Option B: Local Setup
+
+**Requirements:** Python 3.13+
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/utkubascakir/YTU-CE-Chatbot.git
+cd YTU-CE-Chatbot
+
+# 2. Create and activate a virtual environment
+python -m venv venv
+
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Set up environment variables
+cp .env.example .env
+# Fill in your API keys in .env
+
+# 5. Create the vector database (first time only)
 python -m src.ingestion.pipeline
-```
 
-### 2. Run the Telegram Bot
-Start the bot application:
-```bash
+# 6. Start the bot
 python app.py
 ```
 
-### 3. Evaluation
-To evaluate the RAG system's performance:
-```bash
-python -m src.evaluation.evaluate
+---
+
+## Environment Variables
+
+```env
+TELEGRAM_BOT_TOKEN=
+GEMINI_API_KEY=
+COHERE_API_KEY=
 ```
 
-## 🧪 Technologies Used
+---
 
-- **Framework:** LangChain
-- **Vector Database:** ChromaDB
-- **LLM:** Google Gemini
-- **Reranking:** Cohere
-- **Evaluation:** Ragas
-- **Bot Platform:** python-telegram-bot
-- **Data Handling:** Pandas, Pydantic
+## Evaluation
 
-## 📝 License
-This project is for educational purposes.
+To evaluate the RAG system's performance using the RAGAS framework:
+
+```bash
+# Local
+python -m src.evaluation.evaluate
+
+# Docker
+docker compose run --rm chatbot python -m src.evaluation.evaluate
+```
+
+---
+
+## Tech Stack
+
+| Category | Technology |
+|---|---|
+| Framework | LangChain |
+| Vector Database | ChromaDB |
+| LLM & Embeddings | Google Gemini |
+| Reranking | Cohere |
+| Evaluation | RAGAS |
+| Bot Platform | python-telegram-bot |
+| Conversation Storage | SQLite |
+
+---
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
